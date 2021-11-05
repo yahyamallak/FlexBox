@@ -1,0 +1,23 @@
+:root {
+  --main-color: aquamarine;
+  --square-width: 50px;
+  --square-height: 50px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.container1 {
+  height: 300px;
+  border: 3px solid black;
+}
+
+.c {
+  background-color: var(--main-color);
+  width: var(--square-width);
+  height: var(--square-height);
+  margin: 10px;
+}
